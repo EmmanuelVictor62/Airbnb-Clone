@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Header from './components.js/Header'
+import Slide from './components.js/Slide'
+import SlideData from './components.js/SlideData'
+import Profile from './components.js/Profile'
+import profileData from './components.js/ProfileData';
 
 function App() {
+  const slide = SlideData.map((slide) => {
+    return(
+      <Slide 
+        key={slide.id}
+        slide={slide}
+      />
+    )
+  })
+
+  const cards = profileData.map((item) => {
+    return(
+      <Profile 
+        key={item.id}
+        item={item}
+      />
+    )
+  })
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <section className='body'>
+        <div className='slide-wrapper'>
+         {slide }
+        </div>
+        
+        {/* {cards} */}
+      </section>
+      
     </div>
   );
 }

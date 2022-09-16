@@ -1,0 +1,249 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:85px;
+    font-family:Airbnb-medium;
+    border-bottom: 1px solid #EBEBEB;
+    padding:0px 80px;
+}
+
+.Header__logo{
+    width:100px;
+    height:32px;
+}
+
+
+/* Header Middle Section */
+.Header__middle-section{
+    margin-left:100px;
+}
+.Header__input{
+    display: flex;
+    align-items: center;
+    height:48px;
+    width:354px;
+    border:1px solid #dddddd;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 0px 1px #dddddd,0 1px 3px #dddddd;
+    transition: box-shadow 0.2s ease;
+}
+
+.Header__input:hover{
+    box-shadow: 0 0px 1px #dddddd,0 3px 4px #dddddd;;
+}
+
+.Header__input-div{
+    font-size:14px;
+    color:rgb(34,34,34);
+    padding:0px 19px;
+    height:24px;
+    display: flex;
+    align-items: center;
+}
+
+.Header__input--div-3{
+    font-family: Airbnb-light;
+    color:#717171;
+    padding:0 0 0 15px;
+    width:fit-content;
+}
+
+.Header__input div:not(.Header__input--div-3){
+    border-right:1px solid #dddddd;
+}
+
+.Header-input-div-3__span{
+    background-color: re;
+}
+
+.Header__input-div-3__search-icon::before{
+    font-size: 18px;
+    margin-left:13px;
+    font-size:13px;
+    color:white;
+    background-color: rgb(255,56,92);
+    padding:10px;
+    border-radius: 50%;
+}
+
+
+
+/* Header Right Section Starts */
+
+.Header__right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rgba(34,34,34);
+    width: 260px;
+}
+
+.Header__right-section--description{
+    font-size:14px;
+    font-weight:100 !important;
+    padding:12px;
+    border-radius:24px;
+    cursor: pointer;
+    transition:all 0.2s ease;
+}
+
+.Header__right-section--description:hover{
+    background-color: rgba(239,239,239,.5);
+}
+
+.Header-right-section__globe{
+    transition:background-color 0.2s ease;
+    padding: 9px 12px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.Header-right-section__globe:hover{
+    background-color: rgba(239,239,239,.5);
+}
+
+.Header-right-section__div{
+    padding:5px 5px 5px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border:1px solid #DDDDDD;
+    border-radius: 22px;
+    transition: all 0.2s ease;
+}
+
+.Header-right-section__div:hover{
+    box-shadow: 0 0px 1px #dddddd,0 3px 4px #dddddd;
+}
+
+.bi-list::before{
+    font-size:18px;
+}
+
+.bi-person-circle{
+    position: relative;
+}
+
+
+.bi-person-circle::before{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+
+.Header-right-section-circle::before{
+    content:"";
+    position:absolute;
+    background-color: rgb(255,56,92) ;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    top:-2px;
+    right:-2px;
+    border:2px solid white;
+}
+
+.Header-mobile-input-field{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+        padding:0;
+        display: flex;
+        align-items: center;
+    }
+
+    .Header{
+        border: none;
+    }
+
+    .Header__left-section{
+        display: none;
+    }
+
+    .Header__middle-section{
+        display: none;
+    }
+
+    .Header__right-section{
+        display: none;
+    }
+
+
+    /* Mobile Search Input Field Style */
+    .Header-mobile-input-field{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:100vw;
+        color:rgb(34,34,34)
+    }
+
+    .Header-mobile-input-field__box{
+        display: flex;
+        width:85%;
+        align-items: center;
+        height: 56px;
+        border:0.5px solid rgba(0,0,0,0.08);
+        border-radius: 28px;
+        box-shadow: 0 3px 10px rgb(0,0,0,0.1 );;
+    }
+
+    .Header-mobile__search-icon::before{
+        font-size:16px;
+        padding-left: 20px;
+    }
+
+    .Header-mobile-middle-section{
+        margin-left: 18px;
+    }
+
+    .Header-mobile-middle-section__title{
+        margin: 0;
+        font-size: 14px;
+        font-family: Airbnb-medium;
+        color:inherit;
+    }
+
+
+    .Header-mobile-middle-section__div{
+        display: flex;
+        align-items: center;
+        height:16px;
+    }
+
+    .Header-mobile-description{
+        margin:0px 0 0 0;
+        font-size:12px;
+        font-family: Airbnb-light;
+        color:rgba(113,113,113)
+    }
+
+    .Header-midle-dot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom:8px;
+        width:3px;
+        color:rgba(113,113,113);
+        margin: 0px 5px 0px 5px;
+    }
+
+    .Header__mobile-slider-icon::before{
+        border:1px solid #dddddd;
+        border-radius: 50%;
+        height:36px;
+        width:36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 18px;
+    }
+}
