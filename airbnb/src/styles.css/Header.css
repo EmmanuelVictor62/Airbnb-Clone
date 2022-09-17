@@ -264,7 +264,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 18px;
+        margin-left: calc(100% + 6px);
         color:black
     }
 }
