@@ -21,7 +21,7 @@ export default[
         slideName:"slide slide--default",
         img:FirstHeaderImage,
         name:"Beach",
-        imgClass:"slide__img ",
+        imgClass:"slide__img slide__img--default",
         nameClass:"slide__name slide__name--default"
     },
 
@@ -183,6 +183,70 @@ export default[
         slideName:"slide",
         img:FifthHeaderImage,
         name:"Chef's Kitchen",
+        imgClass:"slide__img ",
+        nameClass:"slide__name"
+    },
+    {
+        id:21,
+        slideName:"slide",
+        img:TwelfthHeaderImage,
+        name:"Bed & breakfasts",
+        imgClass:"slide__img ",
+        nameClass:"slide__name"
+    },
+    {
+        id:22,
+        slideName:"slide",
+        img:FifteenHeaderImage,
+        name:"Windmills",
+        imgClass:"slide__img ",
+        nameClass:"slide__name"
+    },
+    {
+        id:23,
+        slideName:"slide",
+        img:FirstHeaderImage,
+        name:"OMG!",
+        imgClass:"slide__img ",
+        nameClass:"slide__name"
+    },
+    {
+        id:24,
+        slideName:"slide",
+        img:EleventhHeaderImage,
+        name:"Design",
+        imgClass:"slide__img ",
+        nameClass:"slide__name"
+    },
+    {
+        id:25,
+        slideName:"slide",
+        img:SixthHeaderImage,
+        name:"Surfing",
+        imgClass:"slide__img ",
+        nameClass:"slide__name"
+    },
+    {
+        id:26,
+        slideName:"slide",
+        img:SecondHeaderImage,
+        name:"Shared homes",
+        imgClass:"slide__img ",
+        nameClass:"slide__name"
+    },
+    {
+        id:27,
+        slideName:"slide",
+        img:FourthHeaderImage,
+        name:"Golfing",
+        imgClass:"slide__img ",
+        nameClass:"slide__name"
+    },
+    {
+        id:28,
+        slideName:"slide",
+        img:FourteenHeaderImage,
+        name:"A-frames",
         imgClass:"slide__img ",
         nameClass:"slide__name"
     },

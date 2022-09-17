@@ -1,8 +1,67 @@
+
+
 .slide-wrapper{
     overflow-y: scroll;
     display: flex;
     column-gap: 40px;
-    width:95%;
+    z-index: 100;
+    width:89%;
+    background-color: white;
+}
+
+.filter-wrapper{
+    position: fixed;
+    top:100px;
+    right:79px;
+    background: white;
+    background-position-x: right;
+    z-index: 200;
+    height:93px;
+    display: flex;
+    align-items: center;
+    width:fit-content;
+    padding-left:4px;
+}
+
+.FilterCard-wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.FilterCard__arrow-icon{
+    border: 0.5px solid rgba(0,0,0,0.3);
+    padding:7px 9px;
+    border-radius: 50%;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.FilterCard__arrow-icon:hover{
+    transform: scale(1.04);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.FilterCard__filterBox{
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    border-radius: 12px;
+    border: 1px solid rgba(221,221,221);
+    box-sizing: border-box;
+    padding:0px 16px;
+    column-gap: 10px;
+    height:48px;
+    cursor: pointer;
+}
+
+.FilterCard__filterBox--slider{
+    font-size:13px;
+}
+
+.FilterCard__filterBox--description{
+    font-size: 12px;
 }
 
 .slide-wrapper::-webkit-scrollbar{
@@ -32,7 +91,11 @@
 
 .slide__img{
     width:27px;
-    color:blue;
+    filter: contrast(calc(13 / 44));
+}
+
+.slide__img--default{
+    filter: contrast(1);
 }
 
 .slide__name{
@@ -48,7 +111,39 @@
 }
 
 @media screen and (max-width:768px){
-    .slide-wrap{
+    .slide-body{
+        padding:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .slide-wrapper{
+        padding-left:35px;
+        border-bottom:1px solid #EBEBEB;
+        box-shadow: 0px 4px 8px -3px #dddd;
+        width:100%;
+        position:fixed;
+        top:80px;
+        left:0;
+        right:0;
+        z-index: 100;
+    }
+
+    .filter-wrapper{
         display: none;
+    }
+
+    .slide{
+        padding-top:7px;
+    }
+
+    .slide__img{
+        width:22px;
+    }
+
+    .slide__name{
+        padding:4px 0px 12px 0px;
     }
 }

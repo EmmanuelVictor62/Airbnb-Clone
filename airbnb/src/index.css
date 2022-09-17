@@ -27,8 +27,17 @@ body{
     color:black;
     font-family: Airbnb-medium;
     margin: 0;
+    max-width:100vw;
+    background-color: white;
 }
 
-.body{
-    padding:0px 80px;
+.slide-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white !important;
+    z-index: 200;
+    width:100vw;
+    position: fixed;
+    top: 85px;
 }

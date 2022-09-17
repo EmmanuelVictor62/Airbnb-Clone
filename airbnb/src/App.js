@@ -4,6 +4,7 @@ import Slide from './components.js/Slide'
 import SlideData from './components.js/SlideData'
 import Profile from './components.js/Profile'
 import profileData from './components.js/ProfileData';
+import FilterCard from './components.js/FilterCard'
 
 function App() {
   const slide = SlideData.map((slide) => {
@@ -29,11 +30,20 @@ function App() {
     <div className="App">
       <Header />
       <section className='body'>
-        <div className='slide-wrapper'>
-         {slide }
+        <div className='slide-body'>
+          <div className='slide-wrapper'>
+          {slide }
+          </div>
+          <div className='filter-wrapper'>
+            <FilterCard />
+          </div>
+          
+        </div>
+
+        <div className='Cards-wrapper'>
+         {cards}
         </div>
         
-        {/* {cards} */}
       </section>
       
     </div>

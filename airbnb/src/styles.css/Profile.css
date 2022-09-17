@@ -1,0 +1,115 @@
+.Cards-wrapper{
+    padding:210px 80px 80px 80px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items:center;
+    justify-content: center;
+}
+
+.Profile-box{
+    cursor:pointer;
+    position: relative;
+    width:fit-content;
+    transition: opacity 0.3s ease;
+    font-family: Airbnb-light;
+    color:rgb(34,34,34);
+    font-size: 15px;
+}
+
+.Profile-box__link-wrapper{
+    text-decoration: none;
+}
+
+.Profile__img{
+    width:302px;
+    height:286px;
+    border-radius: 14px;
+}
+
+.card-badge{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color: white;
+    padding:5px 10px;
+    border-radius: 4px;
+}
+
+.Profile-box:hover .ProfileCard__arrow-icon--box{
+    opacity: 1 !important;
+}
+
+.ProfileCard__arrow-icon--box{
+    position: absolute;
+    top:32%;
+    right:10px;
+    opacity: 0 !important;
+}
+
+
+.ProfileCard__arrow-icon{
+    border: 0.5px solid rgba(0,0,0,0.3);
+    padding:7px 9px;
+    border-radius: 50%;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: white;
+}
+
+.ProfileCard__arrow-icon:hover{
+    transform: scale(1.08);
+}
+
+.Profile__country-wrapper-box{
+    display: flex;
+    justify-content: space-between;
+    color:rgb(32,32,32);
+    font-family: Airbnb-medium;
+}
+
+.Profile__country{
+    margin-top: 8px;
+    margin-bottom: 0;
+    overflow: clip;
+    font-size: 15px;
+}
+
+.Profile__stats{
+    margin-top:5px;
+    display: flex;
+    align-items: center;
+    column-gap:5px;
+    font-family: Airbnb-light;
+    color:rgb(113,113,113);
+    margin-bottom: 0;
+}
+
+.Profile__stats--rating{
+    color:rgb(32,32,32)
+}
+.Profile__stats--price{
+    font-family:Airbnb-medium;
+    color:rgb(32,32,32);
+    margin-top:10px
+}
+
+.Profile__stats--span{
+    font-family: Airbnb-light;
+    margin-top: 0;
+    color:rgb(34,34,34);
+}
+
+
+/* Media Query for Profile Card */
+
+@media screen and (max-width:768px){
+    .Cards-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:170px 0px 0px 0px;
+        width:100%;
+    }
+}
