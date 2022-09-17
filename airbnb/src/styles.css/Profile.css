@@ -111,5 +111,12 @@
         justify-content: center;
         padding:170px 0px 0px 0px;
         width:100%;
+        row-gap: 40px;
+    }
+
+    
+
+    .Profile__img{
+        width:95%;
     }
 }
