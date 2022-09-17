@@ -211,7 +211,7 @@
         height: 56px;
         border:0.5px solid rgba(0,0,0,0.08);
         border-radius: 28px;
-        box-shadow: 0 3px 10px rgb(0,0,0,0.1 );;
+        box-shadow: 0 3px 10px rgb(0,0,0,0.1 );
     }
 
     .Header-mobile__search-icon::before{
@@ -241,7 +241,9 @@
         margin:0px 0 0 0;
         font-size:12px;
         font-family: Airbnb-light;
-        color:rgba(113,113,113)
+        color:rgba(113,113,113);
+        word-wrap: normal;
+        white-space: nowrap;
     }
 
     .Header-midle-dot{
