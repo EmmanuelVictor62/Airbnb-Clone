@@ -200,7 +200,7 @@ export default [
         id:13,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image13,
-        country:"Togo, Taome",
+        country:"Alexander City, 	Bahamas",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
@@ -214,210 +214,210 @@ export default [
         id:14,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image14,
-        country:"Togo, Taome",
+        country:"Togo, Bangladesh",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"220",
+        available:"Available"
     },
     {
         id:15,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image15,
-        country:"Togo, Taome",
+        country:"Anniston, Alabama",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"100",
+        available:"Available"
     },
     {
         id:16,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image16,
-        country:"Togo, Taome",
+        country:"Chickasaw, Taome",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"820",
+        available:"Available"
     },
     {
         id:17,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image17,
-        country:"Togo, Taome",
+        country:"Anchorage, Alaska",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"890",
+        available:"Available"
     },
     {
         id:18,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image18,
-        country:"Togo, Taome",
+        country:"Ketchikan, Alaska",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
+        amount:"250",
         available:"Not Available"
     },
     {
         id:19,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image19,
-        country:"Togo, Taome",
+        country:"Togo, Homer",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"670",
+        available:" Available"
     },
     {
         id:20,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image20,
-        country:"Togo, Taome",
+        country:"Nome, Arizona",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"600",
+        available:"Available"
     },
     {
         id:21,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image21,
-        country:"Togo, Taome",
+        country:"Douglas, Arizona",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"190",
+        available:"Available"
     },
     {
         id:22,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image22,
-        country:"Togo, Taome",
+        country:"Manchester, Connecticut",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"290",
+        available:"Available"
     },
     {
         id:23,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image23,
-        country:"Togo, Taome",
+        country:"Branford, Bloomfield",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
+        amount:"810",
         available:"Not Available"
     },
     {
         id:24,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image24,
-        country:"Togo, Taome",
+        country:"East Haven, Bristol",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"320",
+        available:"Available"
     },
     {
         id:25,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image25,
-        country:"Togo, Taome",
+        country:"Darien, Greenwich",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
+        amount:"300",
         available:"Not Available"
     },
     {
         id:26,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image26,
-        country:"Togo, Taome",
+        country:"Milford, Mystic",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"200",
+        available:"Available"
     },
     {
         id:27,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image27,
-        country:"Togo, Taome",
+        country:"New Britain, Norwich",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"590",
+        available:"Available"
     },
     {
         id:28,
         link:"https://www.airbnb.com/rooms/49085118?adults=1&category_tag=Tag%3A7769&children=0&infants=0&search_mode=flex_destinations_search&check_in=2022-09-16&check_out=2022-09-21&previous_page_section_name=1000&federated_search_id=39d5d58e-b685-4e8c-8082-31ebada16048",
         profileImg:Image28,
-        country:"Togo, Taome",
+        country:"Shelton, Waterford",
         stats: {
             icon:<i class="bi bi-star-fill"></i>,
             rating:"4.68",
             distance:"3,100 kilometers",
             date:"Sep 16-21"
         },
-        amount:"790",
-        available:"Not Available"
+        amount:"330",
+        available:"Available"
     },
 ]
