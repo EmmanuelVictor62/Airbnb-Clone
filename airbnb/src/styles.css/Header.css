@@ -212,6 +212,7 @@
         border:0.5px solid rgba(0,0,0,0.08);
         border-radius: 28px;
         box-shadow: 0 3px 10px rgb(0,0,0,0.1 );
+
     }
 
     .Header-mobile__search-icon::before{
@@ -264,7 +265,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: calc(100% + 6px);
+        margin-left: 50px;
+        margin-right:28px;
         color:black
     }
 }
