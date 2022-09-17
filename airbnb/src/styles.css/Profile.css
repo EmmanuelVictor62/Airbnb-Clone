@@ -114,9 +114,15 @@
         row-gap: 40px;
     }
 
-    
+    .Profile-box{
+        width:88%;
+    }
+
+    .Profile__img-wrapper{
+        width:100%
+    }
 
     .Profile__img{
-        width:95%;
+        width:100%
     }
 }
