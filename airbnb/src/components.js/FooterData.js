@@ -1,10 +1,11 @@
-import React from "react";
+
 
 export default[
     {
         id:1,
         link:"https://www.airbnb.com/sitemaps/v2",
         linkName:"Privacy",
+        className:"First-dot"
     },
     {
         id:2,
