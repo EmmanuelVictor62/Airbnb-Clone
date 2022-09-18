@@ -95,6 +95,10 @@
     display: none;
 }
 
+.Footer__mobile-button{
+    display: none;
+}
+
 
 
 @media screen and (max-width:768px){
@@ -158,5 +162,13 @@
 
     .Footer-text--3{
         color: rgba(113,113,113);
+    }
+
+    .Footer__button{
+        display: none;
+    }
+
+    .Footer__mobile-button{
+        display: flex;
     }
 }

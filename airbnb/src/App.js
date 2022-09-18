@@ -62,6 +62,10 @@ function App() {
             Show map
             <i class="bi bi-map-fill Footer-map-icon"></i>
           </button>
+          <button className='Footer__button Footer__mobile-button'>
+            Map
+            <i class="bi bi-map-fill Footer-map-icon"></i>
+          </button>
         </div>
         
         <div className='Footer-right-section'>
