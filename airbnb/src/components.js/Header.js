@@ -29,7 +29,7 @@ export default function Header(){
                 </div>
                 <div className='Header-right-section__div' >
                     <i className="bi bi-list Header-right-section__nav-icon"></i>
-                    <i className="bi bi-person-circle">
+                    <i className="bi bi-person-circle Header-person-icon">
                         <div className='Header-right-section-circle' ></div>
                     </i>
                 </div>

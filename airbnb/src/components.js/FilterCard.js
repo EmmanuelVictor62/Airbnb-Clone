@@ -11,6 +11,9 @@ export default function FilterCard(){
              <i className="bi bi-sliders FilterCard__filterBox--slider"></i>
              <p className="FilterCard__filterBox--description">Filters</p>
             </div>
+
+
+            
         </div>
     )
 }

@@ -129,12 +129,12 @@
     font-size:18px;
 }
 
-.bi-person-circle{
+.Header-person-icon{
     position: relative;
 }
 
 
-.bi-person-circle::before{
+.Header-person-icon::before{
     font-size: 30px;
     margin-left: 10px;
     margin-right: 2px;
